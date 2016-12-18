@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0638CE41BCAB861AE21E5403 /* Pods_Santa_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6574AC5D6FEFA2F642174E1A /* Pods_Santa_TrackerTests.framework */; };
+		0918D8351E070ADF0034B386 /* SantaRealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918D8341E070ADF0034B386 /* SantaRealmManager.swift */; };
+		0918D8371E070D290034B386 /* MapManager+MKMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918D8361E070D290034B386 /* MapManager+MKMapViewDelegate.swift */; };
 		0950677E1E05994F00039C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950677D1E05994F00039C31 /* AppDelegate.swift */; };
-		095067801E05994F00039C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950677F1E05994F00039C31 /* ViewController.swift */; };
+		095067801E05994F00039C31 /* SantaTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950677F1E05994F00039C31 /* SantaTrackerViewController.swift */; };
 		095067831E05994F00039C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095067811E05994F00039C31 /* Main.storyboard */; };
 		095067851E05994F00039C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095067841E05994F00039C31 /* Assets.xcassets */; };
 		095067881E05994F00039C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095067861E05994F00039C31 /* LaunchScreen.storyboard */; };
 		095067931E05994F00039C31 /* Santa_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095067921E05994F00039C31 /* Santa_TrackerTests.swift */; };
 		0950679E1E05994F00039C31 /* Santa_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950679D1E05994F00039C31 /* Santa_TrackerUITests.swift */; };
+		095067AD1E059BEF00039C31 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095067AC1E059BEF00039C31 /* MapKit.framework */; };
+		098B05841E05A0BC0085C37A /* Santa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B05831E05A0BC0085C37A /* Santa.swift */; };
+		098B05861E05A12C0085C37A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B05851E05A12C0085C37A /* Location.swift */; };
+		098B05881E05A2CE0085C37A /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B05871E05A2CE0085C37A /* MapManager.swift */; };
+		098B058A1E0600D30085C37A /* Location+CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B05891E0600D30085C37A /* Location+CLLocationCoordinate2D.swift */; };
+		098B058C1E0603790085C37A /* Santa+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B058B1E0603790085C37A /* Santa+Test.swift */; };
+		098B058E1E0608D50085C37A /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B058D1E0608D50085C37A /* Stop.swift */; };
+		098B05901E06097F0085C37A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B058F1E06097F0085C37A /* Activity.swift */; };
+		098B05921E0609BE0085C37A /* Activity+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B05911E0609BE0085C37A /* Activity+CustomStringConvertible.swift */; };
+		3F50CF134DB22389D8EBC44A /* Pods_Santa_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8DEE9DA70103A6AD34576 /* Pods_Santa_Tracker.framework */; };
+		7072351CA842DBB1F6A370FB /* Pods_Santa_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B63F2975F91DB07627D1A5 /* Pods_Santa_TrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0918D8341E070ADF0034B386 /* SantaRealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantaRealmManager.swift; sourceTree = "<group>"; };
+		0918D8361E070D290034B386 /* MapManager+MKMapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapManager+MKMapViewDelegate.swift"; sourceTree = "<group>"; };
+		0918D8381E070DFF0034B386 /* Santa Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Santa Tracker.entitlements"; sourceTree = "<group>"; };
 		0950677A1E05994F00039C31 /* Santa Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0950677D1E05994F00039C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0950677F1E05994F00039C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0950677F1E05994F00039C31 /* SantaTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaTrackerViewController.swift; sourceTree = "<group>"; };
 		095067821E05994F00039C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		095067841E05994F00039C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095067871E05994F00039C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,24 @@
 		095067991E05994F00039C31 /* Santa TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0950679D1E05994F00039C31 /* Santa_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Santa_TrackerUITests.swift; sourceTree = "<group>"; };
 		0950679F1E05994F00039C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095067AC1E059BEF00039C31 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		098B05831E05A0BC0085C37A /* Santa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Santa.swift; sourceTree = "<group>"; };
+		098B05851E05A12C0085C37A /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		098B05871E05A2CE0085C37A /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		098B05891E0600D30085C37A /* Location+CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CLLocationCoordinate2D.swift"; sourceTree = "<group>"; };
+		098B058B1E0603790085C37A /* Santa+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Santa+Test.swift"; sourceTree = "<group>"; };
+		098B058D1E0608D50085C37A /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		098B058F1E06097F0085C37A /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		098B05911E0609BE0085C37A /* Activity+CustomStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Activity+CustomStringConvertible.swift"; sourceTree = "<group>"; };
+		6574AC5D6FEFA2F642174E1A /* Pods_Santa_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Santa_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B63F2975F91DB07627D1A5 /* Pods_Santa_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Santa_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88036162A7A248A114B398B0 /* Pods-Santa Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Santa Tracker/Pods-Santa Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AB47DDC46A287B91C137B8 /* Pods-Santa TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Santa TrackerTests/Pods-Santa TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9B9EDD82FDA902CA5A3C78B /* Pods-Santa TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Santa TrackerUITests/Pods-Santa TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D38CBD6A0062A9C5982F21E5 /* Pods-Santa TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Santa TrackerUITests/Pods-Santa TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB99D078A45CDDC9FC502582 /* Pods-Santa Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Santa Tracker/Pods-Santa Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		F435B2D08927B1F398EF1E37 /* Pods-Santa TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Santa TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Santa TrackerTests/Pods-Santa TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD8DEE9DA70103A6AD34576 /* Pods_Santa_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Santa_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095067AD1E059BEF00039C31 /* MapKit.framework in Frameworks */,
+				3F50CF134DB22389D8EBC44A /* Pods_Santa_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0638CE41BCAB861AE21E5403 /* Pods_Santa_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7072351CA842DBB1F6A370FB /* Pods_Santa_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,8 @@
 				095067911E05994F00039C31 /* Santa TrackerTests */,
 				0950679C1E05994F00039C31 /* Santa TrackerUITests */,
 				0950677B1E05994F00039C31 /* Products */,
+				095067AB1E059BEF00039C31 /* Frameworks */,
+				8774D200F91437114293CF85 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,23 @@
 		0950677C1E05994F00039C31 /* Santa Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				0918D8381E070DFF0034B386 /* Santa Tracker.entitlements */,
 				0950677D1E05994F00039C31 /* AppDelegate.swift */,
-				0950677F1E05994F00039C31 /* ViewController.swift */,
+				0950677F1E05994F00039C31 /* SantaTrackerViewController.swift */,
 				095067811E05994F00039C31 /* Main.storyboard */,
 				095067841E05994F00039C31 /* Assets.xcassets */,
 				095067861E05994F00039C31 /* LaunchScreen.storyboard */,
 				095067891E05994F00039C31 /* Info.plist */,
+				098B05831E05A0BC0085C37A /* Santa.swift */,
+				098B05851E05A12C0085C37A /* Location.swift */,
+				098B05871E05A2CE0085C37A /* MapManager.swift */,
+				098B05891E0600D30085C37A /* Location+CLLocationCoordinate2D.swift */,
+				098B058B1E0603790085C37A /* Santa+Test.swift */,
+				098B058D1E0608D50085C37A /* Stop.swift */,
+				098B058F1E06097F0085C37A /* Activity.swift */,
+				098B05911E0609BE0085C37A /* Activity+CustomStringConvertible.swift */,
+				0918D8341E070ADF0034B386 /* SantaRealmManager.swift */,
+				0918D8361E070D290034B386 /* MapManager+MKMapViewDelegate.swift */,
 			);
 			path = "Santa Tracker";
 			sourceTree = "<group>";
@@ -125,6 +177,30 @@
 			path = "Santa TrackerUITests";
 			sourceTree = "<group>";
 		};
+		095067AB1E059BEF00039C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095067AC1E059BEF00039C31 /* MapKit.framework */,
+				FAD8DEE9DA70103A6AD34576 /* Pods_Santa_Tracker.framework */,
+				6574AC5D6FEFA2F642174E1A /* Pods_Santa_TrackerTests.framework */,
+				69B63F2975F91DB07627D1A5 /* Pods_Santa_TrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8774D200F91437114293CF85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88036162A7A248A114B398B0 /* Pods-Santa Tracker.debug.xcconfig */,
+				EB99D078A45CDDC9FC502582 /* Pods-Santa Tracker.release.xcconfig */,
+				F435B2D08927B1F398EF1E37 /* Pods-Santa TrackerTests.debug.xcconfig */,
+				A3AB47DDC46A287B91C137B8 /* Pods-Santa TrackerTests.release.xcconfig */,
+				C9B9EDD82FDA902CA5A3C78B /* Pods-Santa TrackerUITests.debug.xcconfig */,
+				D38CBD6A0062A9C5982F21E5 /* Pods-Santa TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 095067A21E05994F00039C31 /* Build configuration list for PBXNativeTarget "Santa Tracker" */;
 			buildPhases = (
+				8EC800755E8965DB52FC99EE /* [CP] Check Pods Manifest.lock */,
 				095067761E05994F00039C31 /* Sources */,
 				095067771E05994F00039C31 /* Frameworks */,
 				095067781E05994F00039C31 /* Resources */,
+				B1C979FCD16EB178CE487865 /* [CP] Embed Pods Frameworks */,
+				FCCB4B79DB506C33EF434A0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 095067A51E05994F00039C31 /* Build configuration list for PBXNativeTarget "Santa TrackerTests" */;
 			buildPhases = (
+				3CAB15944023AEA71F2D9B97 /* [CP] Check Pods Manifest.lock */,
 				0950678A1E05994F00039C31 /* Sources */,
 				0950678B1E05994F00039C31 /* Frameworks */,
 				0950678C1E05994F00039C31 /* Resources */,
+				D0C608206C9EC955463C9DC4 /* [CP] Embed Pods Frameworks */,
+				41BEB5A1FA6E38F02A10EA65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 095067A81E05994F00039C31 /* Build configuration list for PBXNativeTarget "Santa TrackerUITests" */;
 			buildPhases = (
+				9C96DFC7573F7D2AF72E46F1 /* [CP] Check Pods Manifest.lock */,
 				095067951E05994F00039C31 /* Sources */,
 				095067961E05994F00039C31 /* Frameworks */,
 				095067971E05994F00039C31 /* Resources */,
+				F8BC10522374C2D913A97515 /* [CP] Embed Pods Frameworks */,
+				13F9BE6B6DB92D16B9E1FDEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +280,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = R53H4WR64C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					0950678D1E05994F00039C31 = {
 						CreatedOnToolsVersion = 8.0;
@@ -257,13 +347,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F9BE6B6DB92D16B9E1FDEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa TrackerUITests/Pods-Santa TrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CAB15944023AEA71F2D9B97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41BEB5A1FA6E38F02A10EA65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa TrackerTests/Pods-Santa TrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC800755E8965DB52FC99EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C96DFC7573F7D2AF72E46F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C979FCD16EB178CE487865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa Tracker/Pods-Santa Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C608206C9EC955463C9DC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa TrackerTests/Pods-Santa TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BC10522374C2D913A97515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa TrackerUITests/Pods-Santa TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCB4B79DB506C33EF434A0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Santa Tracker/Pods-Santa Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		095067761E05994F00039C31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095067801E05994F00039C31 /* ViewController.swift in Sources */,
+				095067801E05994F00039C31 /* SantaTrackerViewController.swift in Sources */,
+				0918D8371E070D290034B386 /* MapManager+MKMapViewDelegate.swift in Sources */,
+				098B05881E05A2CE0085C37A /* MapManager.swift in Sources */,
 				0950677E1E05994F00039C31 /* AppDelegate.swift in Sources */,
+				098B058E1E0608D50085C37A /* Stop.swift in Sources */,
+				098B05921E0609BE0085C37A /* Activity+CustomStringConvertible.swift in Sources */,
+				0918D8351E070ADF0034B386 /* SantaRealmManager.swift in Sources */,
+				098B05861E05A12C0085C37A /* Location.swift in Sources */,
+				098B058C1E0603790085C37A /* Santa+Test.swift in Sources */,
+				098B05901E06097F0085C37A /* Activity.swift in Sources */,
+				098B058A1E0600D30085C37A /* Location+CLLocationCoordinate2D.swift in Sources */,
+				098B05841E05A0BC0085C37A /* Santa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +574,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +625,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,8 +653,11 @@
 		};
 		095067A31E05994F00039C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88036162A7A248A114B398B0 /* Pods-Santa Tracker.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Santa Tracker/Santa Tracker.entitlements";
 				DEVELOPMENT_TEAM = R53H4WR64C;
 				INFOPLIST_FILE = "Santa Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,8 +669,11 @@
 		};
 		095067A41E05994F00039C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB99D078A45CDDC9FC502582 /* Pods-Santa Tracker.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Santa Tracker/Santa Tracker.entitlements";
 				DEVELOPMENT_TEAM = R53H4WR64C;
 				INFOPLIST_FILE = "Santa Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +685,7 @@
 		};
 		095067A61E05994F00039C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F435B2D08927B1F398EF1E37 /* Pods-Santa TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +701,7 @@
 		};
 		095067A71E05994F00039C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AB47DDC46A287B91C137B8 /* Pods-Santa TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +717,7 @@
 		};
 		095067A91E05994F00039C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B9EDD82FDA902CA5A3C78B /* Pods-Santa TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R53H4WR64C;
@@ -483,6 +732,7 @@
 		};
 		095067AA1E05994F00039C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38CBD6A0062A9C5982F21E5 /* Pods-Santa TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R53H4WR64C;
@@ -514,6 +764,7 @@
 				095067A41E05994F00039C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095067A51E05994F00039C31 /* Build configuration list for PBXNativeTarget "Santa TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +773,7 @@
 				095067A71E05994F00039C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095067A81E05994F00039C31 /* Build configuration list for PBXNativeTarget "Santa TrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +782,7 @@
 				095067AA1E05994F00039C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
